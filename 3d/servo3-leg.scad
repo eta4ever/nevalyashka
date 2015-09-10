@@ -6,7 +6,7 @@ difference(){
     {
         cube([12, 5, 3]);
         translate([-0.1, 4.8, 1.5])
-            scale([1, 1, 3])
+            linear_extrude(height = 3, center = true, convexity = 10, twist = 0, slices = 20, scale = 1.0)
                 import("leg.dxf", convexity=3);
     }
     
