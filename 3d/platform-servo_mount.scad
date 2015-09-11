@@ -17,6 +17,7 @@ difference(){
         
         //servo hole
         translate([10,10,0.5]) cylinder(h=3.01, r=3.5, center=true);
+        translate([10,10,0]) cylinder(h=4.01, r=2, center=true);
         
         translate([10,10,0.75])
             rotate([0, 0, 45])
